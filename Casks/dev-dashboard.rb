@@ -5,7 +5,7 @@ cask "dev-dashboard" do
     sha256 "12fe4aea8cc8d9e501eafe745a219758e8e1637522ab95a4fe9bc826ee37b402"
     url "https://github.com/VladMogwai/dev-dashboard/releases/download/v1.0.0/Dev.Dashboard-1.0.0-arm64-mac.zip"
   else
-    sha256 "74e4b3b67136109803ea93b7b4ab1cf4a8c4bddfa89c242b326e2642565d2453"
+    sha256 "89f52a4434c8897f44788828a34aae8163ef99370981aedd0b78766160b43eda"
     url "https://github.com/VladMogwai/dev-dashboard/releases/download/v1.0.0/Dev.Dashboard-1.0.0-mac.zip"
   end
 
