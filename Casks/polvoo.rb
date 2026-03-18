@@ -1,12 +1,12 @@
 cask "polvoo" do
-  version "1.0.8"
+  version "1.0.9"
 
   if Hardware::CPU.arm?
-    sha256 "47290f4edf5c98f55fa519f537411643be64a7f1681c1aef8850d57e2d51c228"
-    url "https://github.com/VladMogwai/polvoo/releases/download/v1.0.8/Polvoo-1.0.8-arm64-mac.zip"
+    sha256 "c6588a1166767d88c0ded511d6b42dd6de9c32098b917e291e947d2622bd12ba"
+    url "https://github.com/VladMogwai/polvoo/releases/download/v1.0.9/Polvoo-1.0.9-arm64-mac.zip"
   else
-    sha256 "288869365bc49c3fd6323694bd2563a492add45e91de75c4f72c3de21b720781"
-    url "https://github.com/VladMogwai/polvoo/releases/download/v1.0.8/Polvoo-1.0.8-mac.zip"
+    sha256 "93278b55ec62d7ff3ddfdff8b3dee4857e0a3eec73010adb62cf96e3919881a8"
+    url "https://github.com/VladMogwai/polvoo/releases/download/v1.0.9/Polvoo-1.0.9-mac.zip"
   end
 
   name "Polvoo"
